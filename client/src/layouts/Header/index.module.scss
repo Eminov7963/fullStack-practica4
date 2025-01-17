@@ -1,0 +1,65 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Josefin Sans";
+    box-shadow: 3px 1px 3px black;  
+    padding: 20px 0px; 
+    
+    .headContain{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100%;
+        flex-wrap: wrap;
+        .left{
+            
+            h1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 25px;
+            }
+            .shop{
+                color: red;
+                font-size: 25px;
+            }
+        }
+    
+    .middle{
+        ul{
+            display: flex;
+            gap: 40px;
+            font-size: 20px;
+        }
+    }
+    .right{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        font-size: 20px;
+        .search{
+            cursor: pointer;
+            transition: 0.4s;
+            &:hover{
+                color: red;
+            }
+        }
+        .user{
+            cursor: pointer;
+            transition: 0.4s;
+            &:hover{
+                color: blue;
+            }
+        }
+        
+        .bask{
+            cursor: pointer;
+            transition: 0.4s;
+            &:hover{
+                color: orange;
+            }
+        }
+    }
+}
+}
